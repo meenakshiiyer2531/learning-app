@@ -1,0 +1,29 @@
+name: chat_app
+description: A new Flutter project
+
+# This is where you add the environment constraint
+environment:
+  sdk: '^3.2.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # other dependencies...
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/avatar1.png
+    - assets/avatar2.png
+    - assets/avatar3.png
+    - assets/avatar4.png
+    - assets/profile.png
+
+
+
+  fonts:
+    - family: PixelifySans
+      fonts:
+        - asset: assets/fonts/PixelifySans-Regular.ttf
